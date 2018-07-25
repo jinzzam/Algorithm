@@ -1,8 +1,8 @@
-package com.jinzzam.alg;
+package com.jinzzam.bj0725;
 
 import java.io.*;
 
-public class Main {
+public class HTML_6581 {
 
     public static int wordCount;
     public static StringBuilder stringBuilder = new StringBuilder();
