@@ -1,8 +1,8 @@
 //
-//  2438.c
+//  2441.c
 //  Algorithm
 //
-//  Created by jinzzam on 22/11/2018.
+//  Created by jinzzam on 23/11/2018.
 //  Copyright © 2018 jinzzam. All rights reserved.
 //
 
@@ -11,8 +11,12 @@
 //int main(){
 //    int N;
 //    scanf("%d", &N);
-//    for(int i=1; i<=N; i++){
-//        for(int j=1; j<=i; j++){
+//    for(int i=N; i>=1; i--){
+//        int blank = N-i;
+//        for(int j=0; j<blank; j++){
+//            printf(" ");
+//        }
+//        for(int k=0; k<i; k++){
 //            printf("*");
 //        }
 //        printf("\n");
